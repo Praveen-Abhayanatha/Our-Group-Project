@@ -21,7 +21,6 @@ If it is square root → ask for one number.
 Perform the calculation.
 Show the result.
 Repeat until the user selects "exit".
-
 import math
 def calculater():
     while True:
@@ -46,7 +45,7 @@ def calculater():
           num2 = float(input('enter second number:'))
           print('answer is', num1*num2) 
       elif choice == '4':
-      num1 = float(input('enter first number:'))
+          num1 = float(input('enter first number:'))
           num2 = float(input('enter second number:'))
           if num2 != 0:
             print('answer is', num1/num2)
@@ -67,6 +66,14 @@ def calculater():
       else:
           print('invalid input')
 answer = calculater()
+1 - addition
+2 - substraction
+3- multiplication
+4- division
+5- power
+6- square root
+7 - exit
+We added the calculator from this ![Calculator](https://upload.wikimedia.org/wikipedia/commons/3/3b/PocketCalculator.JPG)
+This is the link to my Github repository
+https://github.com/Praveen-Abhayanatha/Our-Group-Project.git
 
- We added the calculator from this
-![Calculator](https://upload.wikimedia.org/wikipedia/commons/3/3b/PocketCalculator.JPG)
